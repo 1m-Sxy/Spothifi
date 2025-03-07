@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton+SC&family=Playwrite+HU:wght@100..400&display=swap');
+body {
+	background-color :#1f2022;
+
+}
+
+h1, h2, p, ul, ol,a, td, tr, label, fieldset ,.white {
+	color: white;
+}
+
+.tborder {
+	border: 10px;
+	background-color :#7A7A7A;
+	border-radius: 10px;
+	padding: 10px;
+	box-shadow: 6px 6px 2px rgba(85, 85,85, 0.5);
+	margin-left: 750px;
+	margin-right: 750px;
+}
+img {
+	border: 10px;
+	background-color : #7A7A7A;
+	border-radius: 10px;
+	padding: 10px;
+
+}
+
+
+h1 {
+	background-image : url(Images/background1.jfif);
+	padding: 50px;
+	background-position: cover;
+	background-attachment: fixed;
+
+}
+
+.playwrite {
+  font-family: "Playwrite HU", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.anton {
+  font-family: "Anton SC", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.blue {
+    color: blue;
+}
+
+.Centertxt {
+	text-align: center;
+}
+
+.Streams {
+	font-weight:800;
+	font-size: 1,5em;
+}
+
+a:hover {
+	opacity: 0.5;
+	color: red;
+}
+
+a:focus{
+	background-color: white;
+	color: red;
+}
+
+footer {
+    background-color: #7A7A7A;/* Fond grise */
+    color: white; /* Texte en blanc */
+    text-align: center; /* Centrer le txt */
+    padding: 20px; /* Padding pour les espace */
+    position: ; /* Pour que ca reste */
+    bottom: 0;
+    width: 100%;
+}
+
+.space {
+	display: flex;
+	text-align: center;
+    display: flex;
+    flex-wrap: wrap; /* Permet l'image d'aller en plusieurs colonne  */
+    gap: 0; /* Ensures no space between images */
+}
+
+.item img {
+  padding: 10px;
+  margin: 5px;
+  background-color: grey;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  text-align: center;
+  grid-template-columns: repeat(3, 1fr);  /* 3 equal columns */
+  grid-template-rows: repeat(3, 1fr);    /* 3 equal rows */
+  gap: 10px;  /* Optional: adds space between the photos */
+}
+
+.grid img {
+	object-fit: cover;
+	width: 150px;
+	height: 150px;
+}
+
+.Centertxt table {
+		margin: auto;
+		border: 1px white; 
+		border-collapse: collapse;
+
+}
+td {
+	border: 3px solid white;
+	padding: 15px;
+}
+
+fieldset{
+	margin-left: 150px;
+	margin-right: 200px;
+	background-color:  #6C6C6C;
+}
+legend {
+  background-color: #6C6C6C;
+  border: 2px solid black;
+  border-radius: 6px;
+  padding: 4px;
+}
+@media screen (max-width: 1024){
+}
+
+
+
+
+
+
+
+}
